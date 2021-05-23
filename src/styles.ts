@@ -1,5 +1,3 @@
-import FeatherIcon from 'react-native-vector-icons/Feather';
-
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
@@ -20,7 +18,7 @@ export const Title = styled.Text`
   max-width: 270px;
 `;
 
-export const Subtitle = styled.Text`
+export const Text = styled.Text`
   color: #7a7a80;
   margin-top: 20px;
   font-size: 16px;
@@ -28,7 +26,34 @@ export const Subtitle = styled.Text`
   max-width: 206px;
 `;
 
-export const Button = styled.TouchableOpacity`
-  height: 50px;
-  width: 50px;
+export const FooterContainer = styled.View`
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const CheckboxContainer = styled.View`
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const CheckboxText = styled.Text`
+  color: #7a7a80;
+  font-size: 14px;
+`;
+
+export const ForgotPassword = styled.TouchableOpacity``;
+
+export const ForgotPasswordText = styled.Text`
+  color: #7a7a80;
+  font-size: 14px;
+`;
+
+export const SignUp = styled.TouchableOpacity`
+  margin-top: 40px;
+`;
+
+export const SignUpText = styled.Text`
+  color: #7a7a80;
+  font-size: 14px;
 `;
